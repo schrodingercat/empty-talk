@@ -932,55 +932,55 @@ B</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.0
-BN</panel_attributes>
+B2X</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>510</x>
-      <y>300</y>
+      <y>290</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.0
-BM</panel_attributes>
+B0/1/2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>510</x>
-      <y>430</y>
+      <y>420</y>
       <w>70</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.1
-BM</panel_attributes>
+B0/1/2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>520</x>
-      <y>690</y>
+      <y>680</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.1
-BN</panel_attributes>
+B2X</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.custom.Text</type>
     <coordinates>
       <x>520</x>
-      <y>780</y>
+      <y>770</y>
       <w>140</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 3.0
-BN</panel_attributes>
+B2X</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

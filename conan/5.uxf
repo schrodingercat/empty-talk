@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
   <zoom_level>10</zoom_level>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>470</x>
       <y>320</y>
@@ -12,7 +13,7 @@
     <additional_attributes>80;30;30;140;140;140;80;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>500</x>
       <y>490</y>
@@ -23,7 +24,7 @@
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>590</x>
       <y>490</y>
@@ -34,7 +35,7 @@
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>540</x>
       <y>530</y>
@@ -45,7 +46,7 @@
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>480</x>
       <y>430</y>
@@ -56,7 +57,7 @@
     <additional_attributes>30;30;30;60</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>570</x>
       <y>430</y>
@@ -67,7 +68,7 @@
     <additional_attributes>30;30;30;60</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>540</x>
       <y>410</y>
@@ -78,7 +79,7 @@
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>700</x>
       <y>360</y>
@@ -89,40 +90,43 @@
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>720</x>
       <y>460</y>
       <w>20</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>810</x>
       <y>460</y>
       <w>20</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>760</x>
       <y>500</y>
       <w>40</w>
       <h>20</h>
     </coordinates>
-    <panel_attributes>......</panel_attributes>
+    <panel_attributes>......
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>700</x>
       <y>430</y>
@@ -130,15 +134,16 @@
       <h>130</h>
     </coordinates>
     <panel_attributes>topcenter:Back
-</panel_attributes>
+
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>720</x>
       <y>350</y>
-      <w>112</w>
+      <w>110</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -146,7 +151,7 @@
     <additional_attributes>60;80;60;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>530</x>
       <y>350</y>
@@ -158,7 +163,7 @@
     <additional_attributes>170;80;30;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>580</x>
       <y>440</y>

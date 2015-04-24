@@ -1,205 +1,224 @@
-<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
   <zoom_level>10</zoom_level>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>550</x>
       <y>330</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>610</x>
       <y>310</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:ka1</panel_attributes>
+    <panel_attributes>center:ka1
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>610</x>
       <y>360</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:ka2</panel_attributes>
+    <panel_attributes>center:ka2
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>550</x>
       <y>300</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;40;60;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>550</x>
       <y>330</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;30;60;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>680</x>
       <y>330</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>740</x>
       <y>310</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kb1</panel_attributes>
+    <panel_attributes>center:kb1
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>740</x>
       <y>360</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kb2</panel_attributes>
+    <panel_attributes>center:kb2
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>680</x>
       <y>300</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;40;60;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>680</x>
       <y>330</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;30;60;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>800</x>
       <y>330</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>860</x>
       <y>310</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kc1</panel_attributes>
+    <panel_attributes>center:kc1
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>860</x>
       <y>360</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kc2</panel_attributes>
+    <panel_attributes>center:kc2
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>800</x>
       <y>300</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;40;60;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>800</x>
       <y>330</y>
       <w>80</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=4</panel_attributes>
     <additional_attributes>30;30;60;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>580</x>
       <y>590</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>AxB</panel_attributes>
+    <panel_attributes>AxB
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>630</x>
       <y>560</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kab1</panel_attributes>
+    <panel_attributes>center:kab1
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>630</x>
       <y>620</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kab2</panel_attributes>
+    <panel_attributes>center:kab2
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>580</x>
       <y>550</y>
@@ -207,55 +226,60 @@
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=6</panel_attributes>
     <additional_attributes>30;40;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>590</x>
       <y>590</y>
       <w>60</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=6</panel_attributes>
     <additional_attributes>30;30;40;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>690</x>
       <y>590</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>BxC</panel_attributes>
+    <panel_attributes>BxC
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>740</x>
       <y>560</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kbc1</panel_attributes>
+    <panel_attributes>center:kbc1
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>740</x>
       <y>620</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kbc2</panel_attributes>
+    <panel_attributes>center:kbc2
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>690</x>
       <y>550</y>
@@ -263,55 +287,60 @@
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=6</panel_attributes>
     <additional_attributes>30;40;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>700</x>
       <y>590</y>
       <w>60</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=6</panel_attributes>
     <additional_attributes>30;30;40;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>800</x>
       <y>590</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>AxC</panel_attributes>
+    <panel_attributes>AxC
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>850</x>
       <y>560</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kac1</panel_attributes>
+    <panel_attributes>center:kac1
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>850</x>
       <y>620</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kac2</panel_attributes>
+    <panel_attributes>center:kac2
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>800</x>
       <y>550</y>
@@ -319,55 +348,60 @@
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=6</panel_attributes>
     <additional_attributes>30;40;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>810</x>
       <y>590</y>
       <w>60</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=6</panel_attributes>
     <additional_attributes>30;30;40;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>660</x>
       <y>800</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>AxBxC</panel_attributes>
+    <panel_attributes>AxBxC
+group=8</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>770</x>
       <y>780</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kabc1</panel_attributes>
+    <panel_attributes>center:kabc1
+group=8</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>770</x>
       <y>830</y>
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>center:kabc2</panel_attributes>
+    <panel_attributes>center:kabc2
+group=8</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>680</x>
       <y>760</y>
@@ -375,121 +409,132 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=8</panel_attributes>
     <additional_attributes>30;50;90;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>680</x>
       <y>800</y>
       <w>110</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
+    <panel_attributes>lt=-
+group=8</panel_attributes>
     <additional_attributes>30;30;90;40</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>530</x>
       <y>180</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>550</x>
       <y>230</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>590</x>
       <y>190</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>680</x>
       <y>170</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>690</x>
       <y>230</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>740</x>
       <y>190</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>820</x>
       <y>170</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>820</x>
       <y>230</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>880</x>
       <y>190</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>540</x>
       <y>160</y>
@@ -497,11 +542,12 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=1</panel_attributes>
     <additional_attributes>60;30;30;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>520</x>
       <y>190</y>
@@ -509,11 +555,12 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=1</panel_attributes>
     <additional_attributes>30;30;30;50</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>670</x>
       <y>180</y>
@@ -521,11 +568,12 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=2</panel_attributes>
     <additional_attributes>30;30;30;50</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>700</x>
       <y>200</y>
@@ -533,11 +581,12 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=2</panel_attributes>
     <additional_attributes>30;50;60;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>800</x>
       <y>180</y>
@@ -545,11 +594,12 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=3</panel_attributes>
     <additional_attributes>30;50;30;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>830</x>
       <y>160</y>
@@ -557,11 +607,12 @@
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=3</panel_attributes>
     <additional_attributes>50;40;30;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>830</x>
       <y>200</y>
@@ -569,11 +620,12 @@
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=3</panel_attributes>
     <additional_attributes>60;30;30;50</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>120</y>
@@ -581,11 +633,12 @@
       <h>160</h>
     </coordinates>
     <panel_attributes>topcenter:relation 1
-</panel_attributes>
+
+group=1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>660</x>
       <y>120</y>
@@ -593,11 +646,12 @@
       <h>160</h>
     </coordinates>
     <panel_attributes>topcenter:relation 1
-</panel_attributes>
+
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>800</x>
       <y>120</y>
@@ -605,22 +659,24 @@
       <h>160</h>
     </coordinates>
     <panel_attributes>topcenter:relation 3
-</panel_attributes>
+
+group=3</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>570</x>
       <y>440</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>580</x>
       <y>430</y>
@@ -628,11 +684,12 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>630</x>
       <y>440</y>
@@ -640,22 +697,24 @@
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-B</panel_attributes>
+B
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>570</x>
       <y>490</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>580</x>
       <y>480</y>
@@ -663,11 +722,12 @@ B</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>630</x>
       <y>490</y>
@@ -675,22 +735,24 @@ B</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-A</panel_attributes>
+A
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>690</x>
       <y>440</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B</panel_attributes>
+    <panel_attributes>B
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>700</x>
       <y>430</y>
@@ -698,11 +760,12 @@ A</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>750</x>
       <y>440</y>
@@ -710,22 +773,24 @@ A</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-C</panel_attributes>
+C
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>690</x>
       <y>490</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>700</x>
       <y>480</y>
@@ -733,11 +798,12 @@ C</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>750</x>
       <y>490</y>
@@ -745,22 +811,24 @@ C</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-B</panel_attributes>
+B
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>810</x>
       <y>440</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A</panel_attributes>
+    <panel_attributes>A
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>820</x>
       <y>430</y>
@@ -768,11 +836,12 @@ B</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>870</x>
       <y>440</y>
@@ -780,22 +849,24 @@ B</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-C</panel_attributes>
+C
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>810</x>
       <y>490</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C</panel_attributes>
+    <panel_attributes>C
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>820</x>
       <y>480</y>
@@ -803,11 +874,12 @@ C</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=5</panel_attributes>
     <additional_attributes>30;30;50;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>870</x>
       <y>490</y>
@@ -815,22 +887,24 @@ C</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-A</panel_attributes>
+A
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>590</x>
       <y>700</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>AxB</panel_attributes>
+    <panel_attributes>AxB
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>650</x>
       <y>710</y>
@@ -838,11 +912,12 @@ A</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-C</panel_attributes>
+C
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>610</x>
       <y>690</y>
@@ -850,22 +925,24 @@ C</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=7</panel_attributes>
     <additional_attributes>30;30;40;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>700</x>
       <y>700</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>BxC</panel_attributes>
+    <panel_attributes>BxC
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>760</x>
       <y>710</y>
@@ -873,11 +950,12 @@ C</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-A</panel_attributes>
+A
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>720</x>
       <y>690</y>
@@ -885,22 +963,24 @@ A</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=7</panel_attributes>
     <additional_attributes>30;30;40;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.UseCase</type>
+    <type>com.baselet.element.old.element.UseCase</type>
     <coordinates>
       <x>810</x>
       <y>700</y>
       <w>50</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>AxC</panel_attributes>
+    <panel_attributes>AxC
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Class</type>
+    <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>870</x>
       <y>710</y>
@@ -908,11 +988,12 @@ A</panel_attributes>
       <h>30</h>
     </coordinates>
     <panel_attributes>bt=.
-B</panel_attributes>
+B
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.Relation</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>830</x>
       <y>690</y>
@@ -920,11 +1001,12 @@ B</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-</panel_attributes>
+
+group=7</panel_attributes>
     <additional_attributes>30;30;40;30</additional_attributes>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>520</x>
       <y>560</y>
@@ -932,11 +1014,12 @@ B</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.0
-B2X</panel_attributes>
+B2X
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>510</x>
       <y>290</y>
@@ -944,11 +1027,12 @@ B2X</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.0
-B0/1/2</panel_attributes>
+B0/1/2
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>510</x>
       <y>420</y>
@@ -956,11 +1040,12 @@ B0/1/2</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.1
-B0/1/2</panel_attributes>
+B0/1/2
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>520</x>
       <y>680</y>
@@ -968,11 +1053,12 @@ B0/1/2</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.1
-B2X</panel_attributes>
+B2X
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Text</type>
+    <type>com.baselet.element.old.element.Text</type>
     <coordinates>
       <x>520</x>
       <y>770</y>
@@ -980,62 +1066,68 @@ B2X</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 3.0
-B2X</panel_attributes>
+B2X
+group=8</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>290</y>
       <w>420</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>420</y>
       <w>420</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=5</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>550</y>
       <w>420</w>
       <h>120</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=6</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>680</y>
       <w>420</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=7</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <type>com.umlet.element.custom.Systemborder</type>
+    <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
       <x>510</x>
       <y>770</y>
       <w>420</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>
+group=8</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

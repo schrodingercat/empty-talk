@@ -1014,7 +1014,6 @@ group=7</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.0
-B2X
 group=6</panel_attributes>
     <additional_attributes/>
   </element>
@@ -1027,7 +1026,6 @@ group=6</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.0
-B0/1/2
 group=4</panel_attributes>
     <additional_attributes/>
   </element>
@@ -1040,7 +1038,6 @@ group=4</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 1.1
-B0/1/2
 group=5</panel_attributes>
     <additional_attributes/>
   </element>
@@ -1053,7 +1050,6 @@ group=5</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 2.1
-B2X
 group=7</panel_attributes>
     <additional_attributes/>
   </element>
@@ -1066,7 +1062,6 @@ group=7</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>level 3.0
-B2X
 group=8</panel_attributes>
     <additional_attributes/>
   </element>

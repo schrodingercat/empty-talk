@@ -4,20 +4,20 @@
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>480</x>
-      <y>320</y>
+      <x>360</x>
+      <y>270</y>
       <w>230</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-3</panel_attributes>
+reduce</panel_attributes>
     <additional_attributes>210;60;30;40</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Actor</type>
     <coordinates>
-      <x>380</x>
-      <y>340</y>
+      <x>260</x>
+      <y>290</y>
       <w>200</w>
       <h>280</h>
     </coordinates>
@@ -35,189 +35,100 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>690</x>
-      <y>360</y>
+      <x>570</x>
+      <y>310</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>B0
-group=2</panel_attributes>
+    <panel_attributes>B0</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>690</x>
-      <y>430</y>
+      <x>570</x>
+      <y>380</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>B1
-group=2</panel_attributes>
+    <panel_attributes>B1</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>610</x>
-      <y>530</y>
-      <w>50</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>B20
-group=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>670</x>
-      <y>530</y>
-      <w>50</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>B21
-group=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>730</x>
-      <y>530</y>
-      <w>50</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>B22
-group=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>870</x>
-      <y>390</y>
-      <w>50</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>B20
-group=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>870</x>
-      <y>430</y>
-      <w>50</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>B21
-group=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Class</type>
-    <coordinates>
-      <x>870</x>
+      <x>570</x>
       <y>470</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>B22
-group=1</panel_attributes>
+    <panel_attributes>B2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
-      <x>850</x>
-      <y>360</y>
-      <w>100</w>
-      <h>150</h>
-    </coordinates>
-    <panel_attributes>topcenter:B2(Disk Back)
-group=1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Systemborder</type>
-    <coordinates>
-      <x>600</x>
-      <y>500</y>
-      <w>190</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>topcenter:B2(Disk Front)
-group=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Systemborder</type>
-    <coordinates>
-      <x>670</x>
-      <y>330</y>
+      <x>550</x>
+      <y>280</y>
       <w>90</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>topcenter:Memory
-group=2</panel_attributes>
+    <panel_attributes>topcenter:Memory</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>660</x>
-      <y>360</y>
+      <x>540</x>
+      <y>310</y>
       <w>94</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-swap
-group=2</panel_attributes>
+swap</panel_attributes>
     <additional_attributes>50;70;50;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>760</x>
-      <y>480</y>
-      <w>174</w>
-      <h>80</h>
+      <x>590</x>
+      <y>590</y>
+      <w>224</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 swap</panel_attributes>
-    <additional_attributes>30;60;130;60;130;30</additional_attributes>
+    <additional_attributes>30;80;180;80;180;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>710</x>
-      <y>390</y>
-      <w>160</w>
+      <x>590</x>
+      <y>550</y>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 merge</panel_attributes>
-    <additional_attributes>140;50;30;50</additional_attributes>
+    <additional_attributes>160;50;30;50</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>720</x>
-      <y>430</y>
-      <w>150</w>
-      <h>90</h>
+      <x>590</x>
+      <y>580</y>
+      <w>180</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 merge</panel_attributes>
-    <additional_attributes>130;30;30;70</additional_attributes>
+    <additional_attributes>160;30;30;80</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>580</x>
-      <y>420</y>
+      <x>420</x>
+      <y>440</y>
       <w>70</w>
       <h>30</h>
     </coordinates>
@@ -227,37 +138,161 @@ merge</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>560</x>
-      <y>420</y>
-      <w>94</w>
-      <h>100</h>
+      <x>420</x>
+      <y>440</y>
+      <w>150</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 fetch</panel_attributes>
-    <additional_attributes>50;80;50;30</additional_attributes>
+    <additional_attributes>130;200;30;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>480</x>
-      <y>330</y>
+      <x>360</x>
+      <y>280</y>
       <w>230</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-2</panel_attributes>
+reduce</panel_attributes>
     <additional_attributes>210;100;30;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>480</x>
-      <y>330</y>
-      <w>120</w>
-      <h>120</h>
+      <x>360</x>
+      <y>280</y>
+      <w>106</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-1</panel_attributes>
-    <additional_attributes>100;100;30;30</additional_attributes>
+reduce</panel_attributes>
+    <additional_attributes>80;160;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>520</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>B3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>650</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Bn</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>580</x>
+      <y>550</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>570</x>
+      <y>590</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Bn-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>750</x>
+      <y>590</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>B'n</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Systemborder</type>
+    <coordinates>
+      <x>550</x>
+      <y>440</y>
+      <w>90</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>topcenter:Disk</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>280</y>
+      <w>200</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Op Log</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>300</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+cur</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;160.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>300</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+cur</panel_attributes>
+    <additional_attributes>100.0;10.0;100.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Actor</type>
+    <coordinates>
+      <x>790</x>
+      <y>450</y>
+      <w>200</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>*x Operater*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>810</x>
+      <y>280</y>
+      <w>110</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+change</panel_attributes>
+    <additional_attributes>40;30;80;170</additional_attributes>
   </element>
 </diagram>

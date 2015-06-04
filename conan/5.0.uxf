@@ -247,12 +247,13 @@ group=2</panel_attributes>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>400</x>
-      <y>450</y>
+      <y>430</y>
       <w>190</w>
-      <h>50</h>
+      <h>70</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>170;30;30;30</additional_attributes>
+    <panel_attributes>lt=&lt;.
+1</panel_attributes>
+    <additional_attributes>170;50;30;50</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
@@ -262,7 +263,8 @@ group=2</panel_attributes>
       <w>90</w>
       <h>90</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
+    <panel_attributes>lt=&lt;.
+2</panel_attributes>
     <additional_attributes>70;70;30;30</additional_attributes>
   </element>
   <element>
@@ -273,7 +275,8 @@ group=2</panel_attributes>
       <w>100</w>
       <h>150</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.</panel_attributes>
+    <panel_attributes>lt=&lt;.
+3</panel_attributes>
     <additional_attributes>80;130;30;30</additional_attributes>
   </element>
 </diagram>

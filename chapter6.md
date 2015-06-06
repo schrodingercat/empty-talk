@@ -29,6 +29,7 @@
    
    1. ###三个数据集合
       ![](conan/1.0.uxf.png)
+	  
       **我们先看一个三个集合的例子，A B C 为三个集合中的某个元素，根据两两之间可能存在或者不存在相关性, 分为三种情况:**
 	     1. relation1 情况下，只有AC可以判断相关性, 则 ABC 三者不可能相关, 而 AC 则可能相关。
 	     2. relation2 情况下, ABC 三者可能相关, AB BC 可能相关, 但 BC 不可能相关.
@@ -92,19 +93,21 @@
    
    1. ###DocList的结构
       ![](conan/5.0.uxf.png)
-	  DocList最重要的是压缩方式, 怎么将一大批DocId尽可能的压缩, 而且不会严重的影响查询性能. 考虑到Conan存储的分层结构, DocList采用比较粗暴的形式貌似是比较好的.
-	  一个DocList分为三个部分:
-	  1. Raw段
-	     部分无法进行压缩的DocId存放在这个段中.
-		 * Disk上存储的时候, 首先必须是排好序的, 然后采用两级索引的形式, 第一级是chunk, 以G为粒度, 第二级是Block, 以M为粒度, 在block内部, 还可以设置第三级索引.
-		 * 存在内存中时, 可以采用跳跃表的形式.
-	  2. PForDelta段
-	  3. Range段
-      </br>
+	  在Conan中,DocList是巨量的,怎么将一大批DocId尽可能的压缩, 而且不会严重的影响查询性能, 是关键点. 考虑到Conan存储的分层结构, DocList采用比较粗暴的形式是比较好的.
+	  * 当存储到磁盘上时, 一个DocList可以被分为三个部分:
+	     1. Raw部分
+	        无法进行压缩的DocId存放在这个段中.DocId 首先必须是排好序的, 然后采用两级索引(skip table)的形式, 第一级是chunk, 以G为粒度, 第二级是Block, 以M为粒度, 在block内部, .
+	     2. PForDelta部分
+	        索引的形式与Raw段一样, 只是在block内部采用PForDelta算法对DocList进行压缩.
+	     3. Range部分
+	        索引的形式与Raw一样, 只是对于一些连续的DocList只存储开头和结尾.
+	   * 在内存中, 因为内存最终会被swap到磁盘上,可以采用与Raw部分类似的方法来存储.
+       </br>
 
    2. ###Dict的结构
       ![](conan/6.0.uxf.png)
-
+	  Conan的Dict会不停的剧烈的变化,因此各层的Dict也需要排序,并且不断的做合并.Dict无论在内存和Disk中都采用跳跃表的形式存储, 值得一提的是, DocList中的skip table其实也是一种跳跃表.不论是在磁盘上还是在内存中,Dict可以仿照DocList的Raw段来进行.
+	  
 7. ##检索结构的合并
 ![](conan/7.0.uxf.png)
 ![](conan/7.1.uxf.png)

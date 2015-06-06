@@ -20,7 +20,7 @@
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A(1)</panel_attributes>
+    <panel_attributes>F(1)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -31,7 +31,7 @@
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A(2)</panel_attributes>
+    <panel_attributes>F(2)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -42,7 +42,7 @@
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A(n)</panel_attributes>
+    <panel_attributes>F(n)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -86,7 +86,7 @@
       <w>120</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>a(1)/a(2)/a(n)</panel_attributes>
+    <panel_attributes>f(1)/f(2)/f(n)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -97,7 +97,7 @@
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>ax Fetch(a(x))</panel_attributes>
+    <panel_attributes>g(x) Fetch(f(x))</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

@@ -4,8 +4,8 @@
   <element>
     <type>com.baselet.element.old.element.Actor</type>
     <coordinates>
-      <x>780</x>
-      <y>490</y>
+      <x>640</x>
+      <y>370</y>
       <w>200</w>
       <h>280</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>340</x>
-      <y>260</y>
+      <x>200</x>
+      <y>140</y>
       <w>230</w>
       <h>80</h>
     </coordinates>
@@ -27,8 +27,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Actor</type>
     <coordinates>
-      <x>240</x>
-      <y>280</y>
+      <x>100</x>
+      <y>160</y>
       <w>200</w>
       <h>280</h>
     </coordinates>
@@ -46,8 +46,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>300</y>
+      <x>410</x>
+      <y>180</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -57,8 +57,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>370</y>
+      <x>410</x>
+      <y>250</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -68,8 +68,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>460</y>
+      <x>410</x>
+      <y>340</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -79,8 +79,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
-      <x>530</x>
-      <y>270</y>
+      <x>390</x>
+      <y>150</y>
       <w>90</w>
       <h>150</h>
     </coordinates>
@@ -90,9 +90,9 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>520</x>
-      <y>300</y>
-      <w>94</w>
+      <x>380</x>
+      <y>180</y>
+      <w>90</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -102,9 +102,9 @@ swap</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>570</x>
-      <y>580</y>
-      <w>224</w>
+      <x>430</x>
+      <y>460</y>
+      <w>220</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -114,8 +114,8 @@ swap</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>570</x>
-      <y>540</y>
+      <x>430</x>
+      <y>420</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
@@ -126,8 +126,8 @@ merge</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>570</x>
-      <y>570</y>
+      <x>430</x>
+      <y>450</y>
       <w>180</w>
       <h>100</h>
     </coordinates>
@@ -138,8 +138,8 @@ merge</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>400</x>
-      <y>430</y>
+      <x>260</x>
+      <y>310</y>
       <w>70</w>
       <h>30</h>
     </coordinates>
@@ -149,8 +149,8 @@ merge</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>400</x>
-      <y>430</y>
+      <x>260</x>
+      <y>310</y>
       <w>150</w>
       <h>220</h>
     </coordinates>
@@ -161,8 +161,8 @@ fetch</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>340</x>
-      <y>270</y>
+      <x>200</x>
+      <y>150</y>
       <w>230</w>
       <h>120</h>
     </coordinates>
@@ -173,9 +173,9 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>340</x>
-      <y>270</y>
-      <w>106</w>
+      <x>200</x>
+      <y>150</y>
+      <w>100</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
@@ -185,8 +185,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>510</y>
+      <x>410</x>
+      <y>390</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -196,8 +196,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>640</y>
+      <x>410</x>
+      <y>520</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -207,8 +207,8 @@ reduce</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>560</x>
-      <y>540</y>
+      <x>420</x>
+      <y>420</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -218,8 +218,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>550</x>
-      <y>580</y>
+      <x>410</x>
+      <y>460</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -229,8 +229,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>730</x>
-      <y>580</y>
+      <x>590</x>
+      <y>460</y>
       <w>50</w>
       <h>30</h>
     </coordinates>
@@ -240,8 +240,8 @@ reduce</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Systemborder</type>
     <coordinates>
-      <x>530</x>
-      <y>430</y>
+      <x>390</x>
+      <y>310</y>
       <w>90</w>
       <h>260</h>
     </coordinates>
@@ -251,8 +251,8 @@ reduce</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>660</x>
-      <y>270</y>
+      <x>520</x>
+      <y>150</y>
       <w>200</w>
       <h>30</h>
     </coordinates>
@@ -262,8 +262,8 @@ reduce</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>290</y>
+      <x>470</x>
+      <y>170</y>
       <w>210</w>
       <h>180</h>
     </coordinates>
@@ -274,8 +274,8 @@ cur</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>290</y>
+      <x>470</x>
+      <y>170</y>
       <w>140</w>
       <h>90</h>
     </coordinates>
@@ -286,9 +286,9 @@ cur</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>800</x>
-      <y>270</y>
-      <w>100</w>
+      <x>660</x>
+      <y>150</y>
+      <w>104</w>
       <h>240</h>
     </coordinates>
     <panel_attributes>lt=&lt;.

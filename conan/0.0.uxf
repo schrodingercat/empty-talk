@@ -10,7 +10,7 @@
       <h>130</h>
     </coordinates>
     <panel_attributes>halign=center
-relation(A,B,C)
+relation(a,b,c)
 
 </panel_attributes>
     <additional_attributes/>
@@ -23,7 +23,7 @@ relation(A,B,C)
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C
+    <panel_attributes>c
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -35,7 +35,7 @@ bg=white</panel_attributes>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A
+    <panel_attributes>a
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -47,7 +47,7 @@ bg=white</panel_attributes>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B
+    <panel_attributes>b
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -93,7 +93,7 @@ bg=white</panel_attributes>
       <h>110</h>
     </coordinates>
     <panel_attributes>halign=center
-relation(A,B)
+relation(a,b)
 
 </panel_attributes>
     <additional_attributes/>
@@ -106,7 +106,7 @@ relation(A,B)
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A
+    <panel_attributes>a
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -118,7 +118,7 @@ bg=white</panel_attributes>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B
+    <panel_attributes>b
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -142,7 +142,7 @@ bg=white</panel_attributes>
       <h>110</h>
     </coordinates>
     <panel_attributes>halign=center
-relation(A,C)
+relation(a,c)
 
 </panel_attributes>
     <additional_attributes/>
@@ -155,7 +155,7 @@ relation(A,C)
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C
+    <panel_attributes>c
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -167,7 +167,7 @@ bg=white</panel_attributes>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>A
+    <panel_attributes>a
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -191,7 +191,7 @@ bg=white</panel_attributes>
       <h>110</h>
     </coordinates>
     <panel_attributes>halign=center
-relation(B,C)
+relation(b,c)
 
 </panel_attributes>
     <additional_attributes/>
@@ -204,7 +204,7 @@ relation(B,C)
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>C
+    <panel_attributes>c
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -216,7 +216,7 @@ bg=white</panel_attributes>
       <w>40</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>B
+    <panel_attributes>b
 bg=white</panel_attributes>
     <additional_attributes/>
   </element>

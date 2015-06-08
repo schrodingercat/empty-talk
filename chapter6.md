@@ -100,26 +100,30 @@
    <br/>
 
 6. ##检索结构
-   之前说过, Conan是倒排索引在某个领域的推广, 在本节将对倒排索引关键的两个部分DocList和Dict进行描述. 每个结构都会说明在内存和磁盘上有何不同.
+   之前说过, Conan是倒排索引在某个领域的推广, 跟常规的 LSM Tree不同的是, 在各层合并的时候, 不但要合并Dict, 还要合并DocList, 拿leveldb来打比方, 就是不但要合并key, 还要合并value, 在本节将对倒排索引关键的两个部分DocList和Dict进行描述. 每个结构都会说明在内存和磁盘上有何不同.
 
    1. ###DocList的结构
       ![](conan/5.0.uxf.png)
 
-	  在Conan中,DocList是巨量的,怎么将一大批DocId尽可能的压缩, 而且不会严重的影响查询性能, 是关键点. 考虑到Conan存储的分层结构, DocList采用利于合并的形式是比较好的.
-	  * 当存储到磁盘上时, 一个DocList可以被分为三个部分:
+	  在Conan中,DocList是巨量的,怎么将一大批DocId尽可能的压缩, 而且不会严重的影响查询性能是关键. 考虑到Conan存储的分层形式, DocList采用利于合并的形式是比较好的, 因此可以采用一个二元组进行排序 sn(rank, docid).
+	  * 在内存时, 由于要处理DocId新增的情况并且要兼顾合并, 因此需要两个有序数列, 一个是sn2docid\_list, 用来按sn顺序索引docid. 一个是docid2sn\_list, 用来按docid顺序索引sn. 这两个数列可以采用skiplist或者是rbtree来实现. 另外, 当从B0转到B1时, docid2sn\_list数列可以放弃, 只保留按sn排序的结果.
+	  * 当存储到磁盘上时, 只在层合并的时候删除DocId, 因此可以按sn采用顺序结构存储, 由于绝大多数的DocId都在磁盘上, 需要采用一些压缩的手段, 一个DocList可以被分为三个部分:
 	     1. Raw部分
-		    无法进行压缩的DocId存放在这个段中.DocId 首先必须是排好序的, 然后采用一级索引直接定位到block, block是以M为粒度并排好序的,由于这个部分所有的DocId存储大小一致,因此可以直接采用二分法查找.
+		    无法进行压缩的DocId存放在这个部分中. 这个部分是一个排好序的Array, 里面放置的是裸的(rank, docid).
 	     2. PForDelta部分
-	        索引的形式与Raw段一样,采用两级索引(skip table)的形式, 第一级是chunk, 以G为粒度, 第二级是Block, 以M为粒度,只是在block内部采用PForDelta算法对DocList进行压缩.
+	        这个部分将对一些紧凑的区间采用PForDelta算法进行压缩.
 	     3. Range部分
-	        索引的形式与PForDelta一样, 只是对于一些连续的DocList, 在Block中只存储开头和结尾.
-	  * 在内存中, 因为内存最终会被swap到磁盘上,可以采用与Raw部分类似的方法来存储.
-       </br>
+	        这个部分将对连续的区间值保存起始和结尾的位置.
+
+	    上面三个部分都会对sn的高位rank进行压缩, 例如存一个rank->pos的表.
+        </br>
 
    2. ###Dict的结构
       ![](conan/6.0.uxf.png)
 
 	  Conan的Dict会剧烈的变化,因此各层的Dict也需要排序,并且不断的做合并.Dict无论在内存和Disk中都采用跳跃表的形式存储, 值得一提的是, DocList中的skip table其实也是一种跳跃表.不论是在磁盘上还是在内存中,Dict可以仿照DocList的Raw段来进行.
+   
+   3. ###Doc2Segment结构
 
 7. ##检索结构的合并
 ![](conan/7.0.uxf.png)

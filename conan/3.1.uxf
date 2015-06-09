@@ -100,13 +100,13 @@ Add(a)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>420</x>
-      <y>280</y>
-      <w>140</w>
+      <y>260</y>
+      <w>150</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 g(2) K_Forward(a)</panel_attributes>
-    <additional_attributes>90.0;10.0;10.0;20.0;10.0;60.0;90.0;70.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;30.0;10.0;50.0;90.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -136,34 +136,11 @@ g(2) K_Forward(a)</panel_attributes>
       <x>510</x>
       <y>270</y>
       <w>20</w>
-      <h>20</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>
 bg=yellow</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>510</x>
-      <y>350</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>510</x>
-      <y>280</y>
-      <w>30</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -194,30 +171,7 @@ Add(g(2))</panel_attributes>
       <x>590</x>
       <y>390</y>
       <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>
-bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>590</x>
-      <y>400</y>
-      <w>30</w>
       <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>590</x>
-      <y>470</y>
-      <w>20</w>
-      <h>20</h>
     </coordinates>
     <panel_attributes>
 bg=yellow</panel_attributes>
@@ -227,13 +181,13 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>490</x>
-      <y>400</y>
-      <w>160</w>
-      <h>90</h>
+      <y>390</y>
+      <w>150</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-g(3) K_Forward(g(2))</panel_attributes>
-    <additional_attributes>100.0;10.0;10.0;20.0;10.0;60.0;100.0;70.0</additional_attributes>
+g(3) K_Forward(a)</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;30.0;10.0;40.0;100.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -291,5 +245,87 @@ Add(g(n))</panel_attributes>
     </coordinates>
     <panel_attributes>......</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>790</x>
+      <y>190</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Channel
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>810</x>
+      <y>340</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>210</y>
+      <w>30</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>350</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>810</x>
+      <y>460</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>330</y>
+      <w>310</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+write</panel_attributes>
+    <additional_attributes>10.0;20.0;290.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>450</y>
+      <w>230</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+write</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
   </element>
 </diagram>

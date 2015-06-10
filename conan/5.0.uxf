@@ -96,12 +96,12 @@
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>380</x>
-      <y>180</y>
-      <w>110</w>
-      <h>110</h>
+      <y>210</y>
+      <w>120</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>90;30;30;90</additional_attributes>
+    <additional_attributes>100;30;30;60</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
@@ -139,71 +139,105 @@
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>470</x>
-      <y>200</y>
-      <w>90</w>
+      <x>610</x>
+      <y>350</y>
+      <w>150</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>sn2docid_list</panel_attributes>
+    <panel_attributes>sort(rank,docindex)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>470</x>
-      <y>240</y>
-      <w>90</w>
+      <x>480</x>
+      <y>230</y>
+      <w>70</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>docid2sn_list</panel_attributes>
+    <panel_attributes>SkipList</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>380</x>
-      <y>220</y>
-      <w>110</w>
+      <x>520</x>
+      <y>190</y>
+      <w>120</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>90;30;30;50</additional_attributes>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>100;30;30;50</additional_attributes>
   </element>
   <element>
-    <type>com.baselet.element.old.element.UseCase</type>
+    <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>610</x>
-      <y>210</y>
-      <w>70</w>
-      <h>40</h>
+      <x>520</x>
+      <y>280</y>
+      <w>110</w>
+      <h>100</h>
     </coordinates>
-    <panel_attributes>lt=.
-skiplist
+    <panel_attributes>lt=&lt;-
 </panel_attributes>
+    <additional_attributes>90;80;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>330</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>90;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>330</y>
+      <w>110</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>90;30;30;80</additional_attributes>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>620</x>
+      <y>210</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>rank2docindex</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.baselet.element.old.element.Class</type>
+    <coordinates>
+      <x>620</x>
+      <y>270</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>docindex2rank</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>530</x>
-      <y>180</y>
-      <w>110</w>
-      <h>60</h>
+      <x>520</x>
+      <y>210</y>
+      <w>120</w>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>lt=&lt;.
+    <panel_attributes>lt=&lt;-
 </panel_attributes>
-    <additional_attributes>30;30;90;40</additional_attributes>
-  </element>
-  <element>
-    <type>com.baselet.element.old.element.Relation</type>
-    <coordinates>
-      <x>530</x>
-      <y>190</y>
-      <w>110</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-</panel_attributes>
-    <additional_attributes>30;60;90;30</additional_attributes>
+    <additional_attributes>100;70;30;30</additional_attributes>
   </element>
 </diagram>

@@ -27,8 +27,8 @@
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
       <x>300</x>
-      <y>390</y>
-      <w>110</w>
+      <y>400</y>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>double array trie</panel_attributes>
@@ -51,16 +51,16 @@
       <x>240</x>
       <y>360</y>
       <w>80</w>
-      <h>70</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>60;50;30;30</additional_attributes>
+    <additional_attributes>60;60;30;30</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>580</x>
-      <y>370</y>
+      <y>330</y>
       <w>80</w>
       <h>40</h>
     </coordinates>
@@ -93,14 +93,14 @@ index</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>380</x>
+      <x>400</x>
       <y>330</y>
-      <w>120</w>
+      <w>100</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 index</panel_attributes>
-    <additional_attributes>100;30;30;80</additional_attributes>
+    <additional_attributes>80;30;30;80</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
@@ -108,10 +108,10 @@ index</panel_attributes>
       <x>490</x>
       <y>320</y>
       <w>110</w>
-      <h>90</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>90;70;30;30</additional_attributes>
+    <additional_attributes>90;30;30;30</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
@@ -138,9 +138,9 @@ index</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Class</type>
     <coordinates>
-      <x>510</x>
+      <x>500</x>
       <y>180</y>
-      <w>110</w>
+      <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>double array trie</panel_attributes>
@@ -207,13 +207,13 @@ index</panel_attributes>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
       <x>400</x>
-      <y>150</y>
-      <w>130</w>
-      <h>80</h>
+      <y>160</y>
+      <w>120</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 index</panel_attributes>
-    <additional_attributes>30;60;110;40</additional_attributes>
+    <additional_attributes>30;50;100;40</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
@@ -253,14 +253,14 @@ index</panel_attributes>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
     <coordinates>
-      <x>590</x>
+      <x>600</x>
       <y>160</y>
-      <w>120</w>
+      <w>110</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
-    <additional_attributes>30;40;100;30</additional_attributes>
+    <additional_attributes>30;40;90;30</additional_attributes>
   </element>
   <element>
     <type>com.baselet.element.old.element.Relation</type>
@@ -268,11 +268,11 @@ index</panel_attributes>
       <x>580</x>
       <y>170</y>
       <w>140</w>
-      <h>100</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 </panel_attributes>
-    <additional_attributes>30;80;120;30</additional_attributes>
+    <additional_attributes>30;90;120;30</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>

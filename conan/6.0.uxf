@@ -61,10 +61,10 @@
     <coordinates>
       <x>580</x>
       <y>330</y>
-      <w>80</w>
+      <w>100</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>DocList</panel_attributes>
+    <panel_attributes>DocSeqnoList</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -75,7 +75,7 @@
       <w>40</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Key</panel_attributes>
+    <panel_attributes>Term</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
